@@ -9,6 +9,11 @@ Esse projeto foi realizado para fazer buscar de previsõs de climas. Nela há al
 
 ## Documentação da API
 
+#### O endpoint fornece a documentação automática da API gerada pelo Swagger UI, permitindo testar e visualizar os endpoints de forma interativa.
+```http
+  GET /docs
+```
+
 #### Listar todas as previsões armazenadas
 
 ```http
