@@ -55,3 +55,18 @@ Payload: { "cidade": "São Paulo" }
 | `id`      | `int` | **id da previsao que se obtem fazendo o get de previsões** |
 
 
+
+
+Devesse criar um arquivo .env para adicionar as variaveis de ambiente que são:
+
+```object
+
+API_KEY_OPEN=sua_api_key
+URL_OPEN_WEATHER=https://api.openweathermap.org/data/2.5/
+
+DB_USER=seu_user
+DB_PASSWORD=seu_password
+DB_HOST=db
+DB_PORT=sua_porta
+DB_NAME=seu_db
+```
